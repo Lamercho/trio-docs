@@ -23,3 +23,16 @@ xDrip is not recommended with the Trio app, as native connections to CGM are mor
 
 ## Watch
 This section asks you to add a watch to Trio. Apple Watch and some Garmin watches are compatible. On an Apple Watch, you can add carbs and boluses, set a temporary target, and show BG, IOB, COB, etc. Garmin watches only display data and will not let you interact by adding carbs or insulin.
+
+### Garmin Epix 2 and Enduro 
+You can see data from Trio on Garmin Epix 2 and Enduro 3 and have data fields in activities. No need for Garmin Connect in the background, the watch should be connected to a phone that runs Trio. The watch face updates with Trio.
+
+#### How to do it
+1. Choose a folder on your Mac and get the latest release from [this GitHub repo](https://github.com/mountrcg/garminWatch).
+2. You need `*.prg` files for your watch model from the release and OpenMTP from [OpenMTP](https://openmtp.ganeshrvel.com) to transfer them to the watch.
+3. Install and start OpenMTP.
+4. Connect your Garmin watch via a data USB cable to the MacBook and allow the USB connection. The Garmin watch USB mode should be set to MTP.
+5. Transfer `*.prg` files for your watch model to the `/GARMIN/APPS` folder.
+6. Wait for the transfer to finish and disconnect the watch.
+7. Add the Garmin watch in Trio settings: `Settings -> Watch -> Garmin Watch -> Add Devices`.
+8. Choose the Trio watch face on the watch and enjoy.
