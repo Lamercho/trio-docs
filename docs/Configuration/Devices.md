@@ -21,10 +21,17 @@ Change the sensor through the Dexcom G6 or G7 app. Trio will automatically pick 
 
 xDrip is not recommended with the Trio app, as native connections to CGM are more stable.
 
-## Watch
-This section asks you to add a watch to Trio. Apple Watch and some Garmin watches are compatible. On an Apple Watch, you can add carbs and boluses, set a temporary target, and show BG, IOB, COB, etc. Garmin watches only display data and will not let you interact by adding carbs or insulin.
+## Watches
+This section asks you to add a watch to Trio. Apple Watch and some Garmin watches are compatible. 
 
-### Garmin Epix 2 and Enduro 
+### Apple 
+On an Apple Watch, you can add carbs and boluses, set a temporary target, and show BG, IOB, COB, etc. 
+
+### Garmin
+Garmin watches only display data and will not let you interact by adding carbs or insulin. There are two components that can be installed on Garmin watches. A watchface that continuously displays information and the datafield that shows glucose information during an activity.
+Both components are independant of each other and need to be sideloaded to to the watch as described below.
+
+#### Garmin Epix 2 and Enduro 
 You can see data from Trio on Garmin Epix 2 and Enduro 3 and have data fields in activities. No need for Garmin Connect in the background, the watch should be connected to a phone that runs Trio. The watch face updates with Trio.
 
 #### How to do it
@@ -36,3 +43,6 @@ You can see data from Trio on Garmin Epix 2 and Enduro 3 and have data fields in
 6. Wait for the transfer to finish and disconnect the watch.
 7. Add the Garmin watch in Trio settings: `Settings -> Watch -> Garmin Watch -> Add Devices`.
 8. Choose the Trio watch face on the watch and enjoy.
+
+#### Hints
+The watchface will not display information after another has been used. In that case you have to de-install the Trio watchface and re-install it. No similar side effects for the datafield.
