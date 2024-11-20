@@ -46,3 +46,6 @@ You can see data from Trio on Garmin Epix 2 and Enduro 3 and have data fields in
 
 #### Hints
 The watchface will not display information after another has been used. In that case you have to de-install the Trio watchface and re-install it. No similar side effects for the datafield.
+
+If your watch is not listed in the Release section just ask for it in the Garmin channel.
+
